@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" name="Formulario" method="post">
+       <fieldset> <legend align="center"><h1>Breaking Bad – Que comience el juego!</h1></legend>
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre: <input type="text" name="nombre" id="" label="Nombre" placeholder="* Campo obligatorio" minlength="3" maxlength="15" required>
+            <br>
+            <br>
+            Apellidos: <input type="text" name="apellidos" id="" label="Apellidos" placeholder="* Campo obligatorio" minlength="4" maxlength="25" required>
+            <br>
+            <br>
+            <fieldset>
+            <legend>Direccion:</legend>
+            <br>
+            Calle: <input type="text" name="calle" id="" label="Calle">
+            Número: <input type="number" name="numero" id="" label="numero">
+            Piso: <input type="text" name="piso" id="" label="piso">
+            Código Postal: <input type="number" name="codigo postal" id="" label="codigo postal">
+            Ciudad: <input type="text" name="ciudad" id="" label="ciudad"></fieldset>
+            <br>
+            DNI: <input type="text" name="dni" id="" label="dni">
+            <br>
+            <br>
+            Correo electrónico: <input type="email" name="correo" id="" label="correo" placeholder="* Campo obligatorio" minlength="3" maxlength="25" required>
+            <br>
+            <br>
+            Sexo:
+            <select name="sexo" id="">
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+            </select>
+            <br>
+            <br>
+            Fecha de nacimiento: <input type="date">
+        </fieldset>
+        <br>
+        Lista desplegable:
+        <select name="lista" id="">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros personajes</option>
+        </select>
+        <br>
+        <br>
+        Comentarios:
+        <br>
+        <textarea name="comentarios" id="" cols="40" rows="10"></textarea>
+    </fieldset>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Eliminar">
+    <input type="file" value="adjuntar archivo">
+    </form>
+</body>
+</html>
